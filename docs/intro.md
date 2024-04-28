@@ -21,4 +21,5 @@ Möchtest du einen Beitrag zur Wiki leisten? Sie ist komplett in Markdown verfas
 
 Wenn du mich Unterstützen möchtest mache es gerne indem du mir ne pizza gönnst! :)
 
-`<a href="https://www.buymeacoffee.com/ludaro"><img src="
+`<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="ludaro" data-color="#5F7FFF" data-emoji="🍕"  data-font="Poppins" data-text="kauf mir ne pizza <3" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>`
+
