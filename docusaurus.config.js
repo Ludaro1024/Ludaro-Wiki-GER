@@ -127,7 +127,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ludaro Inc. Built with ♥️.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ludaro Built with ♥️.`,
       },
       prism: {
         theme: lightCodeTheme,
