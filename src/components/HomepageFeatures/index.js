@@ -4,35 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Einfach zu Benutzen',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      Die Ludaro Wiki ist so gestaltet, dass sie von jedermann genutzt werden kann und es jedem ermöglicht, auch ohne vorheriges Wissen, etwas Neues zu lernen!
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Open-Source',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Die Ludaro-Wiki ist ein Open-Source-Projekt, was bedeutet, dass sie von jedem bearbeitet werden kann – auch von dir, wenn du etwas ändern möchtest!
       </>
     ),
   },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+  // {
+  //   title: 'Wöchentliche Updates!',
+  //   Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+  //   description: (
+  //     <>
+    
+  //     </>
+  //   ),
+  // },
 ];
 
 function Feature({Svg, title, description}) {
