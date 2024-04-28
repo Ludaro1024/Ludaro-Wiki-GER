@@ -1,47 +1,24 @@
+
+Markdown Preview
+
 ---
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Willkommen!
 
-Let's discover **Docusaurus in less than 5 minutes**.
+:::caution Vorab Information:
 
-## Getting Started
+Diese Wiki enthält keine direkten Empfehlungen oder Werbung, und sie wird sie nie enthalten. Ich habe diese Wiki als Hobbyprojekt gestartet, und sie wird so bleiben. Ihr Zweck besteht nicht darin, jemanden im Marketing zu unterstützen oder anderen einen Vorteil zu verschaffen oder Werbung zu generieren. In erster Linie ist diese Wiki dazu da, das FiveM-Scripting einfacher und zugänglicher zu machen und neuen Serverbetreibern einen guten Ort zum Erkunden und Lernen zu bieten. Außerdem soll die Wiki NICHT dazu dienen, andere Wikis zu ersetzen. In dieser Wiki werde ich nur grundlegende Aspekte behandeln und nicht detailliert darauf eingehen, wie man sie verwendet, da andere Wikis dies in der Regel abdecken. Stattdessen werde ich Anleitungen geben und mich bemühen, meinen Teil so klar wie möglich zu erklären, damit selbst diejenigen ohne "Entwicklerkenntnisse" wissen, was zu tun ist.
 
-Get started by **creating a new site**.
+:::
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Hallo! Mein Name ist Ludaro, ich bin 24 Jahre alt und arbeite als Fachinformatiker für Systemintegration. Diese Wiki habe ich erstellt, um Fragen rund um das Erlernen von Lua, speziell für FiveM, zu beantworten. Das Ziel ist, meine Fähigkeiten und Hilfsbereitschaft zu zeigen und häufig gestellte Fragen effizient zu klären.
 
-### What you'll need
+Diese Wiki konzentriert sich darauf, die Optionen darzulegen, die dir zur Verfügung stehen, ohne zu bewerten, was „besser“ ist. Sie ist speziell für FiveM Lua und nicht alle möglichen Themen abgedeckt. Viele Inhalte sind absichtlich vereinfacht, um die Lesbarkeit zu maximieren und die Informationen zugänglicher zu machen aber sie sollten nicht den Originellen Inhalt vernachlässigen.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Möchtest du einen Beitrag zur Wiki leisten? Sie ist komplett in Markdown verfasst und auf GitHub verfügbar. [Hier](https://github.com/Ludaro1024/LudaroWikiDE) kannst du sie nach Belieben bearbeiten, viel Spaß beim Entdecken und Mitwirken!
 
-## Generate a new site
+Wenn du mich Unterstützen möchtest mache es gerne indem du mir ne pizza gönnst! :)
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+`<a href="https://www.buymeacoffee.com/ludaro"><img src="
