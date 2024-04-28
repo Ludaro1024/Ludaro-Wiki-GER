@@ -130,8 +130,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Ludaro Inc. Built with ♥️.`,
       },
       prism: {
-        theme: darkCodeTheme,
-        darkTheme: lightCodeTheme,
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
       },
     }),
 };
