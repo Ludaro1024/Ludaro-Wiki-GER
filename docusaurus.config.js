@@ -92,13 +92,13 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: "Discord",
-                href: "https://discord.ludaro.de",
-              },
-                label: 'Github',
-                href: 'https://github.com/Ludaro1024',
-              },
+              // {
+              //   label: "Discord",
+              //   href: "https://discord.ludaro.de",
+              // },
+              //   label: 'Github',
+              //   href: 'https://github.com/Ludaro1024',
+              // },
               // {
               //   label: 'Stack Overflow',
               //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
