@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Einfach zu Benutzen',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    // Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
       Die Ludaro Wiki ist so gestaltet, dass sie von jedermann genutzt werden kann und es jedem ermöglicht, auch ohne vorheriges Wissen, etwas Neues zu lernen!
@@ -14,22 +14,22 @@ const FeatureList = [
   },
   {
     title: 'Open-Source',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    // Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
         Die Ludaro-Wiki ist ein Open-Source-Projekt, was bedeutet, dass sie von jedem bearbeitet werden kann – auch von dir, wenn du etwas ändern möchtest!
       </>
     ),
   },
-  // {
-  //   title: 'Wöchentliche Updates!',
-  //   Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-  //   description: (
-  //     <>
-    
-  //     </>
-  //   ),
-  // },
+  {
+    title: 'FiveM Bedingt!',
+    // Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+      Hier lernst du sachen mit dem Spiel das du liebst, FiveM! 
+      </>
+    ),
+  },
 ];
 
 function Feature({Svg, title, description}) {
