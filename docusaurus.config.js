@@ -96,31 +96,6 @@ const config = {
           //     },
           //   ],
           // },
-          {
-            title: 'Wichtige Links:',
-            items: [
-              {
-                label: "Discord",
-                href: "https://discord.ludaro.de",
-              },
-              {
-              label: 'Github',
-                href: 'https://github.com/Ludaro1024',
-              },
-              // {
-              //   label: 'Stack Overflow',
-              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              // },
-              // {
-              //   label: 'Discord',
-              //   href: 'https://discordapp.com/invite/docusaurus',
-              // },
-              // {
-              //   label: 'Twitter',
-              //   href: 'https://twitter.com/docusaurus',
-              // },
-            ],
-          },
           // {
           //   title: 'More',
           //   items: [
@@ -134,7 +109,28 @@ const config = {
           //     },
           //   ],
           // },
+          {
+            title: 'Wichtige Links:',
+            items: [
+              {
+                label: "Discord",
+                href: "https://discord.ludaro.de",
+              },
+              {
+                label: 'Github',
+                href: 'https://github.com/Ludaro1024',
+              },
+             
+            ],
+          },
         ],
+        logo: {
+          alt: 'Poro Logo Ludaro.de',
+          src: 'img/docusaurus.png',
+          href: 'https://ludaro.de',
+          width: 160,
+          height: 51,
+        },
         copyright: `Copyright © ${new Date().getFullYear()} Ludaro, geschrieben mit vollem ❤️ für dich.`,
       },
       prism: {
