@@ -66,7 +66,7 @@ const config = {
         title: 'Ludaro.de Wiki!',
         logo: {
           alt: 'Ein Kleiner Poro <3',
-          src: 'img/logo.svg',
+          src: 'img/docusaurus.png',
         },
         items: [
           {
@@ -77,8 +77,9 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/Ludaro1024/ludaro-wiki-ger',
+            alt: "Github",
             src: 'img/undraw_docusaurus_tree.svg',
+            href: 'https://github.com/Ludaro1024/ludaro-wiki-ger',
             position: 'right',
           },
         ],
