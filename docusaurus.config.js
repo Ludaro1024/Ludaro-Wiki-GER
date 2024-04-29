@@ -78,7 +78,7 @@ const config = {
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             alt: "Github",
-            src: 'img/undraw_docusaurus_tree.svg',
+            src: 'img/github.png',
             href: 'https://github.com/Ludaro1024/ludaro-wiki-ger',
             position: 'right',
           },
@@ -87,15 +87,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
           {
             title: 'Community',
             items: [
@@ -135,7 +135,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ludaro und geschrieben mit vollem ❤️.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ludaro, geschrieben mit vollem ❤️ für dich.`,
       },
       prism: {
         theme: darkCodeTheme,

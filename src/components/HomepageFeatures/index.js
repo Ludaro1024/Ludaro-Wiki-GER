@@ -17,16 +17,16 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Die Ludaro-Wiki ist ein Open-Source-Projekt, was bedeutet, dass sie von jedem bearbeitet werden kann – auch von dir, wenn du etwas ändern möchtest!
+        Die Ludaro-Wiki ist ein Open-Source-Projekt, was bedeutet, dass sie von jedem bearbeitet werden kann – auch von dir, wenn du etwas ändern möchtest! Du musst nur auf den "Bearbeiten"-Button klicken und schon kannst du loslegen!
       </>
     ),
   },
   {
     title: 'Community basiert!!',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_docusaurus_react.sv').default,
     description: (
       <>
-    Auf unserem discord (https://discord.ludaro.de) findest du immer leute die bereit sind dir zu helfen!
+    Auf unserem discord (https://discord.ludaro.de) findest du immer leute die bereit sind dir zu helfen! Egal ob du Fragen hast oder einfach nur mit anderen reden möchtest, wir sind für dich da!
       </>
     ),
   },
