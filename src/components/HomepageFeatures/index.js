@@ -21,15 +21,15 @@ const FeatureList = [
       </>
     ),
   },
-  // {
-  //   title: 'Wöchentliche Updates!',
-  //   Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-  //   description: (
-  //     <>
-    
-  //     </>
-  //   ),
-  // },
+  {
+    title: 'Community basiert!!',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+    Auf unserem discord (https://discord.ludaro.de) findest du immer leute die bereit sind dir zu helfen!
+      </>
+    ),
+  },
 ];
 
 function Feature({Svg, title, description}) {
