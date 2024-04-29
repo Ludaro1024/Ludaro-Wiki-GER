@@ -37,15 +37,15 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Ludaro1024/ludaro-wiki-ger',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -63,9 +63,9 @@ const config = {
       respectPrefersColorScheme: false,
     },
       navbar: {
-        title: 'My Site',
+        title: 'Ludaro.de Wiki!',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Ein Kleiner Poro <3',
           src: 'img/logo.svg',
         },
         items: [
@@ -75,10 +75,10 @@ const config = {
             position: 'left',
             label: 'Wiki',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/Ludaro1024/ludaro-wiki-ger',
+            src: 'img/undraw_docusaurus_tree.svg',
             position: 'right',
           },
         ],
@@ -98,13 +98,14 @@ const config = {
           {
             title: 'Community',
             items: [
-              // {
-              //   label: "Discord",
-              //   href: "https://discord.ludaro.de",
-              // },
-              //   label: 'Github',
-              //   href: 'https://github.com/Ludaro1024',
-              // },
+              {
+                label: "Discord",
+                href: "https://discord.ludaro.de",
+              },
+              {
+              label: 'Github',
+                href: 'https://github.com/Ludaro1024',
+              },
               // {
               //   label: 'Stack Overflow',
               //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
@@ -133,7 +134,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ludaro Built with ♥️.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ludaro und geschrieben mit vollem ❤️.`,
       },
       prism: {
         theme: darkCodeTheme,
