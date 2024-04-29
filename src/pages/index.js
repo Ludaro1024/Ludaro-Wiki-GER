@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Lua Lernen in Unter 5 min ⏱️
+            🐣 Lerne heute noch Lua 🐣
           </Link>
         </div>
       </div>
