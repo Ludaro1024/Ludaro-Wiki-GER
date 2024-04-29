@@ -97,7 +97,7 @@ const config = {
           //   ],
           // },
           {
-            title: 'Community',
+            title: 'Wichtige Links:',
             items: [
               {
                 label: "Discord",
