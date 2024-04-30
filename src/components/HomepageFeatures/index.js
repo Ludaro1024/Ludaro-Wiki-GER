@@ -2,6 +2,10 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 import Translate, {translate} from '@docusaurus/Translate';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useThemeContext from '@theme/hooks/useThemeContext'; //docs: https://v2.docusaurus.io/docs/2.0.0-alpha.69/theme-classic#usethemecontext
+ const { isDarkTheme } = useThemeContext();
+const { siteConfig, i18n } = useDocusaurusContext();
 
 const FeatureList = [
   {
@@ -15,7 +19,7 @@ const FeatureList = [
   },
   {
     title: <Translate id="features.opensource.title"></Translate>,
-    Svg: require('@site/static/img/opensource.svg').default,
+    Svg: require(getGithubImg()).default,
     description: (
       <Translate id="features.opensource.text"></Translate>
     ),
@@ -28,6 +32,16 @@ const FeatureList = [
     ),
   },
 ];
+
+function getGithubImg()
+{
+  if (!isDarkTheme)
+  {
+    return require('@site/static/img/github_dark.png').default;
+  }
+  return require('@site/static/img/github.png').default;
+}
+end
 
 function Feature({Svg, title, description}) {
   return (
