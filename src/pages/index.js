@@ -2,15 +2,13 @@ import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { useTranslation } from '@docusaurus/Translate'; // Correct import
+import { t } from '@docusaurus/Translate'; // Correct import
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const { t } = useTranslation(); // Initialize translation hook
-
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -29,7 +27,7 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const { t } = useTranslation(); // Initialize translation hook here too
+  
 
   return (
     <Layout
