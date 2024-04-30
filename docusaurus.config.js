@@ -43,10 +43,10 @@ const config = {
      showReadingTime: true,
             editUrl: ({locale, docPath}) => {
               if (locale !== "de") {
-                return `'https://github.com/Ludaro1024/ludaro-wiki-ger/i18n/${locale}/docusaurus-plugin-content-docs/current/${docPath}'`;
+                return `https://github.com/Ludaro1024/ludaro-wiki-ger/i18n/${locale}/docusaurus-plugin-content-docs/current/${docPath}`;
               }
               
-              return `https://github.com/ludaro1024/ludaro-wiki-ger/${docPath}`;
+              return `https://github.com/ludaro1024/ludaro-wiki-ger/docs/${docPath}`;
             },
         },
         // blog: {
