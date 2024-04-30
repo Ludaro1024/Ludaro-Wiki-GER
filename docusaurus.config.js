@@ -90,7 +90,7 @@ const config = {
                 label: 'Hilf mir beim übersetzen!',
               },
             ],
-          // },
+          },
           {
             href: 'https://github.com/Ludaro1024/ludaro-wiki-ger',
             position: 'right',
