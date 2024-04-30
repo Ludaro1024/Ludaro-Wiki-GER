@@ -2,23 +2,23 @@ import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { t } from '@docusaurus/Translate'; // Correct import
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
 function HomepageHeader() {
+  const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{t('homepage.title')}</h1>
-        <p className="hero__subtitle">{t('homepage.subtitle')}</p>
+        <h1 className="hero__title">Ludaro.de Wiki</h1>
+        <p className="hero__subtitle">FiveM Lua Lernen für Jeden!</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            {t('homepage.startLearningButton')}
+            🐣 Lerne heute noch Lua 🐣
           </Link>
         </div>
       </div>
@@ -27,12 +27,11 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  
-
+  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={t('homepage.metaTitle')}  // Use translated meta title
-      description={t('homepage.metaDescription')}>  // Use translated description
+      title={`Ludaro.de Wiki!`}
+      description="🐣Lua Lernen für jeden!🐣">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
