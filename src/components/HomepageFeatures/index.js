@@ -1,33 +1,30 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Translate, {translate} from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: 'Einfach zu Benutzen',
+    title: <Translate id="features.easytouse.title"></Translate>,
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-      Die Ludaro Wiki ist so gestaltet, dass sie von jedermann genutzt werden kann und es jedem ermöglicht, auch ohne vorheriges Wissen, etwas Neues zu lernen!
+        <Translate id="features.easytouse.text"></Translate>
       </>
     ),
   },
   {
-    title: 'Open-Source',
+    title: <Translate id="features.opensource.title"></Translate>,
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
-      <>
-        Die Ludaro-Wiki ist ein Open-Source-Projekt, was bedeutet, dass sie von jedem bearbeitet werden kann – auch von dir, wenn du etwas ändern möchtest! Du musst nur auf den "Bearbeiten"-Button klicken und schon kannst du loslegen!
-      </>
+      <Translate id="features.opensource.text"></Translate>
     ),
   },
   {
-    title: 'Community',
+    title: <Translate id="features.community.title"></Translate>,
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
-      <>
-     Auf unserem discord (https://discord.ludaro.de) findest du immer leute die bereit sind dir zu helfen! Egal ob du Fragen hast oder einfach nur mit anderen reden möchtest, wir sind für dich da!
-     </>
+      <Translate id="features.community.text"></Translate>
     ),
   },
 ];
