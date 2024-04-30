@@ -1,8 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Translate, { translate } from '@docusaurus/Translate';  // Import Translate
 
 const FeatureList = [
   {
@@ -41,8 +39,8 @@ function Feature({Svg, title, description}) {
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <h3><Translate id={title}>{title}</Translate></h3>
-        <p><Translate id={description}>{description}</Translate></p>
+        <h3>{title}</h3>
+        <p>{description}</p>
       </div>
     </div>
   );

@@ -2,26 +2,23 @@ import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { useLocalization } from '@docusaurus/theme-common'; // Correct import for localization
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
-  const { i18n } = useLocalization(); // Using the localization hook
-
+  const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{i18n.translate('homepage.title')}</h1>  // Correct method to translate
-        <p className="hero__subtitle">{i18n.translate('homepage.subtitle')}</p>  // Correct method to translate
+        <h1 className="hero__title">Ludaro.de Wiki</h1>
+        <p className="hero__subtitle">FiveM Lua Lernen für Jeden!</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            {i18n.translate('homepage.startLearningButton')}  // Correct method to translate
+<Translate id="homepage.startLearningButton"> </Translate>
           </Link>
         </div>
       </div>
@@ -30,13 +27,11 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
-  const { i18n } = useLocalization(); // Using the localization hook here as well
-
+  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={i18n.translate('homepage.metaTitle')}  // Correct method to translate
-      description={i18n.translate('homepage.metaDescription')}>  // Correct method to translate
+      title={`Ludaro.de Wiki!`}
+      description="🐣Lua Lernen für jeden!🐣">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
