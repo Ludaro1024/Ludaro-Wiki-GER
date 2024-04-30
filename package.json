@@ -37,5 +37,14 @@
   },
   "engines": {
     "node": ">=16.14"
-  }
+  },
+  "name": "ludaro-wiki-ger",
+  "description": "Ludaro Wiki in German",
+  "version": "1.0.0",
+  "main": "babel.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "author": "",
+  "license": "ISC"
 }
