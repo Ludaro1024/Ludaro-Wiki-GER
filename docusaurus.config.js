@@ -156,7 +156,7 @@ const config = {
           width: 200,
           height: 200,
         },
-        copyright: `Copyright © ${new Date().getFullYear()} Ludaro, geschrieben mit vollem ❤️ für dich.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ludaro, geschrieben mit vollem ❤️ für dich. mit Docusaurus`,
       },
       prism: {
         theme: darkCodeTheme

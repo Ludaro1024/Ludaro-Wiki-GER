@@ -18,7 +18,8 @@ Dieser Fehler tritt auf, da **Events** in FiveM als **unperformant** angesehen w
 
 ## In Skripten sieht das dann so aus:
 
-:::warning WICHTIG: Das gezeigte Event kann in verschiedenen Skripten unterschiedlich implementiert sein und von dem abweichen, was hier gezeigt wird. :::
+:::warning WICHTIG: 
+Das gezeigte Event kann in verschiedenen Skripten unterschiedlich implementiert sein und von dem abweichen, was hier gezeigt wird.:::
 
 
 ### Altes Event:
@@ -36,10 +37,12 @@ ESX = exports["es_extended"]:getSharedObject()
 Es gibt zwei Methoden, um diesen Fehler zu beheben:
 
 1. Ersetzen Sie das Event in jedem Skript durch den Export.
-:::info Diese Methode wird von ESX unterstützt und empfohlen. Sie ist jedoch etwas anspruchsvoller umzusetzen, spart jedoch an Leistung! :::
+:::info EMPFOHLEN
+Diese Methode wird von ESX unterstützt und empfohlen. Sie ist jedoch etwas anspruchsvoller umzusetzen, spart jedoch an Leistung! :::
 
 2. Schreiben Sie ESX so um, dass das Event wieder verwendet wird.
-:::warning Diese Methode wird NICHT von ESX empfohlen, da sie die Leistung beeinträchtigen kann. :::
+:::warning NICHT EMPFHOLEN
+Diese Methode wird NICHT von ESX empfohlen, da sie die Leistung beeinträchtigen kann.:::
 
 Beide Methoden werden hier ausführlich erklärt:
 
@@ -60,11 +63,12 @@ ESX = exports["es_extended"]:getSharedObject()
 Dies kann manchmal schwierig sein, da diese Zeile möglicherweise in einer verschlüsselten Datei steht, auf die Sie keinen Zugriff haben. In diesem Fall sollten Sie Methode 2 in Erwägung ziehen.
 
 ## 2. Schreiben Sie ESX so um, dass das Event wieder verwendet wird
-:::warning Diese Methode sollte nur in Betracht gezogen werden, wenn Methode 1 nicht funktioniert oder wenn Sie auf die Leistung verzichten möchten! :::
+:::warning Diese Methode sollte nur in Betracht gezogen werden, wenn Methode 1 nicht funktioniert oder wenn Sie auf die Leistung verzichten möchten!:::
 
 Um dies zu erreichen, öffnen Sie Ihren ESX-Ordner (es_extended) und suchen Sie zuerst in der Datei `client/common.lua` nach folgendem Code:
 
-:::info Zur Klarstellung: Dies ist das alte Event, das wir umschreiben, damit es wieder wie früher funktioniert! :::
+:::info Zur Klarstellung: 
+Dies ist das alte Event, das wir umschreiben, damit es wieder wie früher funktioniert!:::
 
 ```lua
 AddEventHandler("esx:getSharedObject", function()

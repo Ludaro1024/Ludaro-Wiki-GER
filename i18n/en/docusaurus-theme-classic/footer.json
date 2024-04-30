@@ -12,7 +12,7 @@
     "description": "The label of footer link with label=Github linking to https://github.com/Ludaro1024"
   },
   "copyright": {
-    "message": "Copyright © 2024 Ludaro, written with ❤️ for you.",
+    "message": "Copyright © 2024 Ludaro, written with ❤️ for you. with Docusaurus",
     "description": "The footer copyright"
   }
 }
