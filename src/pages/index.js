@@ -9,8 +9,8 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
-  const { t } = useTranslation(); // Initialize translation hook
+  const siteConfig = useDocusaurusContext();
+  const  t  = useTranslation(); // Initialize translation hook
 
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
