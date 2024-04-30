@@ -112,15 +112,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Sektionen',
-            items: [
-              {
-                label: 'Wiki',
-                to: '/docs',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
           // {
           //   title: 'More',
           //   items: [
@@ -145,10 +145,6 @@ const config = {
                 label: 'Github',
                 href: 'https://github.com/Ludaro1024',
               },
-              {
-                label: "Docusaurus",
-                href: "https://docusaurus.io"
-              }
              
             ],
           },
@@ -160,10 +156,10 @@ const config = {
           width: 200,
           height: 200,
         },
-        copyright: `Copyright © ${new Date().getFullYear()} Ludaro, geschrieben mit vollem ❤️ für dich. mit Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ludaro, geschrieben mit vollem ❤️ für dich.`,
       },
       prism: {
-        theme: darkCodeTheme,
+        theme: darkCodeTheme
       },
     }),
 };
