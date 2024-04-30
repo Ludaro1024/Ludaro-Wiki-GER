@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={`Ludaro.de Wiki!`}
-      description="🐣Lua Lernen für jeden!🐣">
+      description=<Translate id="homepage.subTitle"></Translate>>
       <HomepageHeader />
       <main>
         <HomepageFeatures />

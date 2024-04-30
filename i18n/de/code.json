@@ -1,7 +1,10 @@
 {
     "homepage.startLearningButton": { 
       "message": "🐣 Beginn heute mit dem Lua Lernen! 🐣"
-  }
+  },
    
+  "homepage.subTitle": {
+    "message": "🐣Lua Lernen für Jeden!🐣"
+  }
   }
   

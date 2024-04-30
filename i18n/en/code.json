@@ -1,5 +1,8 @@
 {
   "homepage.startLearningButton": { 
     "message": "🐣 Begin Learning Lua Today! 🐣"
+},
+"homepage.subTitle": {
+  "message": "🐣Learning Lua for everyone!🐣"
 }
 }
