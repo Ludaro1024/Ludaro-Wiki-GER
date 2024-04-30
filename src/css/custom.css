@@ -46,3 +46,18 @@
   background-color: var(--ifm-navbar-link-hover-color);
 }
 
+
+:root {
+  --dev-dash-bg: url("./../static/img/dgithub.png") no-repeat;
+  --dev-dash-bg: url("../../static/img/github_dark.png") no-repeat;
+}
+
+[data-theme="dark"] {
+  --dev-dash-bg: url("../../static/img/github_dark.png") no-repeat;
+}
+
+.dev-dash {
+  width: 100;
+  height: 100;
+  background: var(--dev-dash-bg);
+}
