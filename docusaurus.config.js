@@ -40,7 +40,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
      //     editUrl:
             //'https://github.com/Ludaro1024/ludaro-wiki-ger',
-
+     showReadingTime: true,
             editUrl: ({locale, docPath}) => {
               if (locale !== "de") {
                 return `'https://github.com/Ludaro1024/ludaro-wiki-ger/i18n/${locale}/docusaurus-plugin-content-docs/current/${docPath}'`;
