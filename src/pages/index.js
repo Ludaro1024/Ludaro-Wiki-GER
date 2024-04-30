@@ -29,11 +29,11 @@ function HomepageHeader() {
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout>
+    <Layout
+      title={`Ludaro.de Wiki!`}
+      description= "Ludaro.de Wiki!">
       <HomepageHeader />
       <main>
-         title={`Ludaro.de Wiki!`}
-      description=<Translate id="homepage.subTitle"></Translate>
         <HomepageFeatures />
       </main>
     </Layout>
