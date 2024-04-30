@@ -76,7 +76,7 @@ const config = {
             position: 'left',
             label: 'Wiki',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+        //  {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'localeDropdown',
             position: 'right',
@@ -86,8 +86,8 @@ const config = {
                 value: '<hr style="margin: 0.3rem 0;">',
               },
               {
-                href: 'https://github.com/facebook/docusaurus/issues/3526',
-                label: 'Hilf mir beim übersetzen!',
+                href: 'https://github.com/Ludaro1024/ludaro-wiki-ger/i18n/',
+                label: '<Translate id="help.translate"></Translate>',
               },
             ],
           },

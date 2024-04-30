@@ -1,4 +1,7 @@
 {
+  "help.translate": {
+    "message": "Help us translate this page!"
+  },
   "homepage.startLearningButton": {
     "message": "🐣 Start learning Lua today! 🐣"
   },

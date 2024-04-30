@@ -1,5 +1,8 @@
 {
-    "homepage.startLearningButton": { 
+  "help.translate": {
+    "message": "Hilf uns zu übersetzen!"
+  },
+  "homepage.startLearningButton": { 
       "message": "🐣 Beginn heute mit dem Lua Lernen! 🐣"
   },
    
