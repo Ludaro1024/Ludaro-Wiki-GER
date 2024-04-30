@@ -250,5 +250,7 @@
     "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
-  "homepage.startLearningButton": "🐣 Beginne heute noch mit dem Erlernen von Lua 🐣"
+  "homepage.startLearningButton": { 
+    "message": "🐣 Beginne heute noch mit dem Erlernen von Lua 🐣"
+}
 }
