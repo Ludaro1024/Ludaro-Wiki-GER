@@ -2,8 +2,6 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 import Translate, {translate} from '@docusaurus/Translate';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-
 
 const FeatureList = [
   {
@@ -17,7 +15,7 @@ const FeatureList = [
   },
   {
     title: <Translate id="features.opensource.title"></Translate>,
-    Svg:  <svg style="github"></svg>,
+    Svg: require('@site/static/img/opensource.svg').default,
     description: (
       <Translate id="features.opensource.text"></Translate>
     ),
