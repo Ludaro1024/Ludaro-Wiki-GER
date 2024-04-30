@@ -76,20 +76,20 @@ const config = {
             position: 'left',
             label: 'Wiki',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   type: 'localeDropdown',
-          //   position: 'right',
-          //   dropdownItemsAfter: [
-          //     {
-          //       type: 'html',
-          //       value: '<hr style="margin: 0.3rem 0;">',
-          //     },
-          //     {
-          //       href: 'https://github.com/facebook/docusaurus/issues/3526',
-          //       label: 'Hilf mir das zu übersetzen!',
-          //     },
-          //   ],
+          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'localeDropdown',
+            position: 'right',
+            dropdownItemsAfter: [
+              {
+                type: 'html',
+                value: '<hr style="margin: 0.3rem 0;">',
+              },
+              {
+                href: 'https://github.com/facebook/docusaurus/issues/3526',
+                label: 'Hilf mir beim übersetzen!',
+              },
+            ],
           // },
           {
             href: 'https://github.com/Ludaro1024/ludaro-wiki-ger',
