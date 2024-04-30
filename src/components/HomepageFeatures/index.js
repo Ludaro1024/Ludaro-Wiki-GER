@@ -6,7 +6,7 @@ import Translate, {translate} from '@docusaurus/Translate';
 const FeatureList = [
   {
     title: <Translate id="features.easytouse.title"></Translate>,
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/easytouse.svg').default,
     description: (
       <>
         <Translate id="features.easytouse.text"></Translate>
@@ -15,14 +15,14 @@ const FeatureList = [
   },
   {
     title: <Translate id="features.opensource.title"></Translate>,
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/opensource.svg').default,
     description: (
       <Translate id="features.opensource.text"></Translate>
     ),
   },
   {
     title: <Translate id="features.community.title"></Translate>,
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/community.svg').default,
     description: (
       <Translate id="features.community.text"></Translate>
     ),
