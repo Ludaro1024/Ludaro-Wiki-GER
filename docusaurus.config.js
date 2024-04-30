@@ -152,9 +152,9 @@ const config = {
         logo: {
           alt: 'Poro Logo Ludaro.de',
           src: 'img/docusaurus.png',
-          href: 'https://ludaro.de',
-          width: 200,
-          height: 200,
+          href: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          width: 100,
+          height: 100,
         },
         copyright: `Copyright © ${new Date().getFullYear()} Ludaro, geschrieben mit vollem ❤️ für dich. mit Docusaurus`,
       },
