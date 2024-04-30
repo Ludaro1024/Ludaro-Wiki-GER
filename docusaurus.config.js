@@ -152,6 +152,7 @@ const config = {
         logo: {
           alt: 'Poro Logo Ludaro.de',
           src: 'img/docusaurus.png',
+          className: 'footer-logo',
           href: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
           width: 100,
           height: 100,
