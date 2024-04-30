@@ -33,7 +33,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
          title={`Ludaro.de Wiki!`}
-      description=<Translate id="homepage.subTitle"></Translate>>
+      description=<Translate id="homepage.subTitle"></Translate>
         <HomepageFeatures />
       </main>
     </Layout>
