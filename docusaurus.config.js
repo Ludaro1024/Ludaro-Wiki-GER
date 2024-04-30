@@ -63,6 +63,7 @@ const config = {
       respectPrefersColorScheme: false,
     },
       navbar: {
+        hideOnScroll: true,
         title: 'Ludaro.de Wiki!',
         logo: {
           alt: 'Ein Kleiner Poro <3',
@@ -77,10 +78,10 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            alt: "Github",
-            src: 'img/github.png',
-            href: 'https://github.com/Ludaro1024/ludaro-wiki-ger',
+            href: 'https://github.com/facebook/docusaurus',
             position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
         ],
       },

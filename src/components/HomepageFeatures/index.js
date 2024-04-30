@@ -26,9 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-    // Auf unserem discord (https://discord.ludaro.de) findest du immer leute die bereit sind dir zu helfen! Egal ob du Fragen hast oder einfach nur mit anderen reden möchtest, wir sind für dich da!
-    //  
-    yay
+     Auf unserem discord (https://discord.ludaro.de) findest du immer leute die bereit sind dir zu helfen! Egal ob du Fragen hast oder einfach nur mit anderen reden möchtest, wir sind für dich da!
      </>
     ),
   },
