@@ -13,7 +13,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">Ludaro.de Wiki</h1>
-        <p className="hero__subtitle">FiveM Lua Lernen für Jeden!</p>
+        <p className="hero__subtitle"><Translate id="homepage.subTitle"></Translate></p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
