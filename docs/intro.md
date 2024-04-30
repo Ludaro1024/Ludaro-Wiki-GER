@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+title: Start 🏠
+sidebar_label: Start 🏠
 ---
 
 # Willkommen!

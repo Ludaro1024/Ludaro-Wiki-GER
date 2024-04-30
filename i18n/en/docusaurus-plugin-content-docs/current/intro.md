@@ -1,6 +1,7 @@
-```markdown
 ---
 sidebar_position: 1
+title: Home 🏠
+sidebar_label: Home 🏠
 ---
 
 # Welcome!
@@ -22,4 +23,3 @@ If you'd like to support me, feel free to buy me a pizza! :)
 <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="ludaro" data-color="#5F7FFF" data-emoji="ð"  data-font="Poppins" data-text="Buy me a pizza <3" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
 
 Please note that this wiki is actively updated in German and Updates in english could take time!
-```
