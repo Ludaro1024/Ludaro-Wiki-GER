@@ -97,7 +97,7 @@ const config = {
               },
               {
                 href: 'https://github.com/Ludaro1024/ludaro-wiki-ger/i18n/',
-                value: '<Translate id="help.translate"></Translate>',
+                label: 'Help me Translate!',
               },
             ],
           },
