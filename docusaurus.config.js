@@ -27,6 +27,8 @@ const config = {
     locales: ['de', 'en']
   },
 
+ 
+
   presets: [
     [
       'classic',
@@ -36,8 +38,16 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Ludaro1024/ludaro-wiki-ger',
+     //     editUrl:
+            //'https://github.com/Ludaro1024/ludaro-wiki-ger',
+
+            editUrl: ({locale, docPath}) => {
+              if (locale !== "de") {
+                return `'https://github.com/Ludaro1024/ludaro-wiki-ger/i18n/${locale}/docusaurus-plugin-content-docs/current/${docPath}'`;
+              }
+              
+              return `https://github.com/ludaro1024/ludaro-wiki-ger/${docPath}`;
+            },
         },
         // blog: {
         //   showReadingTime: true,
@@ -87,7 +97,7 @@ const config = {
               },
               {
                 href: 'https://github.com/Ludaro1024/ludaro-wiki-ger/i18n/',
-                label: '<Translate id="help.translate"></Translate>',
+                value: '<Translate id="help.translate"></Translate>',
               },
             ],
           },
