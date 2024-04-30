@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { useTranslation } from '@docusaurus/Translate'; // Import the translation hook
+import { useLocalization } from '@docusaurus/theme-common'; // Correct import for localization
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
@@ -10,18 +10,18 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
-  const { t } = useTranslation(); // Initialize the translation hook
+  const { i18n } = useLocalization(); // Using the localization hook
 
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{t('homepage.title')}</h1>  // Use translation for title
-        <p className="hero__subtitle">{t('homepage.subtitle')}</p>  // Use translation for subtitle
+        <h1 className="hero__title">{i18n.translate('homepage.title')}</h1>  // Correct method to translate
+        <p className="hero__subtitle">{i18n.translate('homepage.subtitle')}</p>  // Correct method to translate
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            {t('homepage.startLearningButton')}  // Use translation for button text
+            {i18n.translate('homepage.startLearningButton')}  // Correct method to translate
           </Link>
         </div>
       </div>
@@ -31,12 +31,12 @@ function HomepageHeader() {
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
-  const { t } = useTranslation(); // Initialize it here too if needed for layout
+  const { i18n } = useLocalization(); // Using the localization hook here as well
 
   return (
     <Layout
-      title={t('homepage.metaTitle')}  // Use translation for page title
-      description={t('homepage.metaDescription')}>  // Use translation for meta description
+      title={i18n.translate('homepage.metaTitle')}  // Correct method to translate
+      description={i18n.translate('homepage.metaDescription')}>  // Correct method to translate
       <HomepageHeader />
       <main>
         <HomepageFeatures />
