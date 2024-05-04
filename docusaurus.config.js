@@ -160,6 +160,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Ludaro, geschrieben mit vollem ❤️ für dich. mit Docusaurus`,
       },
       prism: {
+        dditionalLanguages: ['powershell', 'lua', 'php', 'csharp', 'html', 'css', 'javascript', 'sql', 'json', 'git', 'diff', 'markup', 'md',],
         theme: darkCodeTheme
       },
     }),
