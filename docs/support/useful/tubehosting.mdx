@@ -1,8 +1,8 @@
-```
+---
 sidebar_position: 1
 title: Tubehosting FiveM Artifacts Updaten
 sidebar_label: Tubehosting FiveM Artifacts Updaten
-```
+---
 
 :::note
 
@@ -24,6 +24,8 @@ Wir gehen jetzt jeden Schritt dürch! :)
 
 ## 1. Server Stoppen (TXADMIN STOPPEN!!)
 
+---
+
 Um Sicherzugehen das nichts kapput geht musst du erstmal deinen server stoppen das machst du in dem du erstmal dich mit Terminus, oder einem anderen SSH Client auf deinem Server Verbindest, falls du nicht weist was ein SSH Client ist schau \[hier]\([https://www.variomedia.de/faq/Was-ist-ein-SSH-Zugang-und-wie-kann-ich-ihn-nutzen/article/93](https://www.variomedia.de/faq/Was-ist-ein-SSH-Zugang-und-wie-kann-ich-ihn-nutzen/article/93))
 
 aber meist ist der SSH Client in Programmen wie Terminus, Putty oder auch selten in ein Terminal aufgebaut, vorrausgesetzt ist das du diese SSH Verbindung hast und eingeloggt bist mit deinem Benutzer!
@@ -38,11 +40,9 @@ Sobald du eingeloggt bist, musst du erstmal verstehen das dein server meistens i
 
 und jetzt gibst du einfach mal&#x20;
 
-\`\`\`bash
-
+```
 screen -ls
-
-\`\`\`
+```
 
 &#x20;in dein Terminal ein,&#x20;
 
@@ -62,11 +62,9 @@ für uns ist wichtig das wir den namen haben, dieser ist nach einer 1-9 stellige
 
 nun geben wir ein
 
-\`\`\`bash
-
-screen -r \[SCREENNAME]
-
-\`\`\`
+```
+screen -r [SCREENNAME]
+```
 
 SCREENNAME Solltet ihr dabei mit eurem eigenen namen den wir im vorigen schritt rausgefunden haben ersetzen,&#x20;
 
@@ -77,6 +75,8 @@ Wenn ja, Drückt ihr jetzt einmal STRG + C (Dadürch Stoppt ihr den server)
 Jetzt das Terminal nicht Schließen!
 
 ## 2. Neuste CFX Version Runterladen
+
+---
 
 [auf dieser website](<https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/)>)\
 seht ihr alle CFX Versionen die man sich für Linux Runterladen kann,
@@ -95,11 +95,9 @@ diesen Link benötigt ihr nun in der SSH Verbindung die wir aufgemacht haben,
 
 dort geben wir nun ein&#x20;
 
-\`\`\`bash
-
-wget \[LINK]
-
-\`\`\`
+```
+wget [LINK]
+```
 
 LINK (ohne Eckige Klammern) muss dabei euren link Representieren, und wenn ihr nun Enter drückt sieht ihr auch einen Ladebalken und wie euer Server von dem Downloadlink das neue Update runterlädt..
 
@@ -107,15 +105,15 @@ Das Terminal bitte Immernoch nicht Schließen!
 
 ## # 3. CFX Version Entpacken
 
+---
+
 Nun habt ihr die Neue Version in einer Kompressierten Form heruntergeladen, ihr müsst diese nun Entpacken,
 
 das ganze macht ihr indem ihr
 
-\`\`\`bash
-
+```
 tar xf fx.tar.xz
-
-\`\`\`
+```
 
 in eure Konsole eingebt, sobald das fertig ist, habt ihr eure CFX Version Geupdated1
 
@@ -123,20 +121,18 @@ Das Terminal bitte Immernoch nicht Schließen!
 
 ## # 4. Server Starten (TXADMIN STARTEN!!)
 
+---
+
 Nun müsst ihr nurnoch&#x20;
 
-\`\`\`bash
-
-./[run.sh](http://run.sh)
-
-\`\`\`
+```bash
+./run.sh
+```
 
 oder auch manchmal
 
-\`\`\`bash
-
-./[start.sh](http://start.sh)
-
-\`\`\`
+```bash
+./start.sh
+```
 
 eingeben, und nun seht ihr wieder eure Vertraute TxAdmin Konsole, nun müsst ihr nur noch hingehen und STRG + A + D Drücken (könnt aber auch einfach euer Terminal schließen) um euch aus dem Screen rauszuschmeißen, ab hier dürft ihr dann sobald ihr die TxAdmin Konsole nichtmehr seht auch gerne Die Verbindung und auch das Terminal Schließen!
