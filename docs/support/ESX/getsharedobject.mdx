@@ -18,21 +18,17 @@ Dieser Fehler tritt auf, da **Events** in FiveM als **unperformant** angesehen w
 
 ## In Skripten sieht das dann so aus:
 
-:::warning WICHTIG: 
-Das gezeigte Event kann in verschiedenen Skripten unterschiedlich implementiert sein und von dem abweichen, was hier gezeigt wird.
-:::
+:::warning WICHTIG: Das gezeigte Event kann in verschiedenen Skripten unterschiedlich implementiert sein und von dem abweichen, was hier gezeigt wird. :::
 
+### ltes Event:
 
-
-### Altes Event:
-
-```lua
+```
 TriggerEvent("esx:getSharedObject", function(obj) ESX = obj end)
 ```
 
 ### Neuer Export:
 
-```lua
+```
 ESX = exports["es_extended"]:getSharedObject()
 ```
 
@@ -62,13 +58,13 @@ Beide Methoden werden hier ausführlich erklärt:
 
 Um dies zu erreichen, müssen Sie in dem jeweiligen Skript (Client- und Server-Lua-Dateien) nach dem alten Event suchen:
 
-```lua
+```
 TriggerEvent("esx:getSharedObject", function(obj) ESX = obj end)
 ```
 
 Suchen Sie nach dieser Zeile und ersetzen Sie sie durch den neuen Export:
 
-```lua
+```
 ESX = exports["es_extended"]:getSharedObject()
 ```
 
@@ -76,7 +72,7 @@ Dies kann manchmal schwierig sein, da diese Zeile möglicherweise in einer versc
 
 ## 2. Schreiben Sie ESX so um, dass das Event wieder verwendet wird
 
-Um dies zu erreichen, öffnen Sie Ihren ESX-Ordner (es\_extended) und suchen Sie zuerst in der Datei `client/common.lua` nach folgendem Code:
+Um dies zu erreichen, öffnen Sie Ihren ESX-Ordner (es_extended) und suchen Sie zuerst in der Datei `client/common.lua` nach folgendem Code:
 
 :::info zur Information:
 
@@ -84,7 +80,7 @@ Dies ist das alte Event, das wir umschreiben, damit es wieder wie früher funkti
 
 :::
 
-```lua
+```
 AddEventHandler("esx:getSharedObject", function()
 	local Invoke = GetInvokingResource()
 	print(("[^1ERROR^7] Resource ^5%s^7 Used the ^5getSharedObject^7 Event, this event ^1no longer exists!^7 Visit https://documentation.esx-framework.org/tutorials/tutorials-esx/sharedevent for how to fix!"):format(Invoke))
@@ -93,7 +89,6 @@ end)
 
 Ersetzen Sie diesen Codeabschnitt durch:
 
-```lua
 ```
 AddEventHandler("esx:getSharedObject", function(cb)
 	cb(ESX)
