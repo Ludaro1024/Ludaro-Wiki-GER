@@ -34,6 +34,7 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -72,6 +73,10 @@ const config = {
       disableSwitch: false,
       respectPrefersColorScheme: false,
     },
+    markdown: {
+      mermaid: true, // Aktiviere Mermaid für Markdown-Dateien
+    },
+    themes: ['@docusaurus/theme-mermaid'], // Füge das Mermaid-Thema hinzu
       navbar: {
         hideOnScroll: true,
         title: 'Ludaro.de Wiki!',

@@ -1,0 +1,119 @@
+---
+sidebar_position: 1
+title: 1. Lua Lernen - Die Basics
+sidebar_label: 1. Lua Lernen - Die Basics
+---
+
+# Lua Lernen - Die Basics
+
+Hey, ich bin Ludaro und ich möchte dir helfen, Lua für FiveM zu lernen!
+
+Lua ist eine ziemlich einfache Sprache, perfekt für Anfänger. Aber wusstest du, dass sie auch in anderen Spielen wie Roblox oder WoW verwendet wird? Cool, oder?
+
+## Warum Lua lernen?
+
+Lua öffnet eine Welt voller Möglichkeiten! Es ist eine der einfachsten Sprachen da draußen und ein großartiger Einstieg in das Programmieren. Und das Beste? Wenn du einmal Lua kannst, wirst du dich auch in anderen Sprachen wie C# oder JavaScript wohlfühlen!
+
+Aber bevor wir in die Details gehen, hier sind ein paar Tipps, um das Beste aus deinem Lernprozess herauszuholen:
+
+- **Gehe in deinem Tempo vor:** Lass dich nicht stressen. Es ist dein Lernprozess, also mach es so, wie es für dich am besten funktioniert.
+
+- **Finde einen Zweck:** Überlege dir, warum du Lua lernen möchtest. Vielleicht für FiveM, für coole Roblox-Spiele oder einfach nur aus Spaß?
+
+- **Sei kreativ:** Denk außerhalb der Box! Versuch etwas Neues und lass dich inspirieren.
+
+- **Englisch lernen:** Englisch ist die Sprache der Programmierung. Es ist zwar nicht zwingend notwendig, aber es hilft enorm!
+
+Lass uns jetzt in die Grundlagen von Lua eintauchen!
+
+## Wie schreibt man Lua?
+
+### Variablen
+
+Variablen sind wie Behälter, in denen du Daten speichern kannst. Hier sind einige der wichtigsten Variablentypen:
+
+- **String (Zeichenkette):** Eine Abfolge von Zeichen, wie Buchstaben, Zahlen oder Symbole. Zum Beispiel: `local name = "Max"`
+
+- **Integer (Ganzzahl):** Eine ganze Zahl ohne Dezimalstellen. Zum Beispiel: `local age = 30`
+
+- **Float (Gleitkommazahl):** Eine Zahl mit Dezimalstellen. Zum Beispiel: `local pi = 3.14159`
+
+- **Boolean (Wahrheitswert):** Kann entweder `true` (wahr) oder `false` (falsch) sein. Zum Beispiel: `local isPlayerAlive = true`
+
+- **Table (Tabelle):** Eine komplexe Datenstruktur, die verschiedene Werte speichern kann. Zum Beispiel: `local inventory = { "Sword", "Shield", "Potion" }`
+
+### Funktionen
+
+Funktionen sind wie kleine Helfer, die bestimmte Aufgaben erledigen. Hier ist ein einfaches Beispiel:
+
+```
+function greetPlayer(playerName)
+  print("Hallo, " .. playerName .. "!")
+end
+
+greetPlayer("Max")
+```
+
+### Bedingungen und Schleifen
+
+Mit Bedingungen und Schleifen kannst du den Fluss deines Codes steuern. Hier ist ein Beispiel:
+
+```
+if isPlayerAlive then
+  print("Spieler ist am Leben.")
+else
+  print("Spieler ist tot.")
+end
+
+while true do
+  print("Dies wird immer wieder ausgeführt!")
+  Citizen.Wait(0) -- Warte 0 Millisekunden, um den Spielprozess nicht zu blockieren
+end
+```
+
+## Threads und Schleifen
+
+### Threads
+
+Ein Thread ist eine Art von Code, der außerhalb des normalen Flusses ausgeführt wird. Threads werden in FiveM oft für kontinuierliche Überprüfungen oder Verzögerungen verwendet, ohne den Hauptthread zu blockieren. Stell dir Threads als separate Arbeitsbereiche vor, die gleichzeitig mit dem Hauptprogramm laufen.
+
+### `while true do`-Schleifen
+
+Eine `while true do`-Schleife wird verwendet, um einen bestimmten Codeblock endlos auszuführen. Ohne `Citizen.Wait(0)` in der Schleife könnte das Spiel abstürzen! `Citizen.Wait(0)` pausiert die Schleife für eine Millisekunde, was verhindert, dass der Code zu schnell ausgeführt wird und das Spiel blockiert.
+
+## Server-/Client-Kommunikation
+
+In FiveM gibt es zwei Hauptbereiche: Server und Client. Der Server ist für Dinge wie Datenbanken und Spiellogik verantwortlich, während der Client für die Benutzeroberfläche und die Spielerinteraktion zuständig ist. Die Kommunikation zwischen Server und Client erfolgt über Events und Callbacks.
+
+- **Events:** Ereignisse ermöglichen es dem Server und dem Client, miteinander zu kommunizieren und Informationen auszutauschen. Zum Beispiel kann der Server dem Client mitteilen, dass ein Spieler eingeloggt ist.
+
+- **Callbacks:** Callbacks ermöglichen es, Funktionen vom Client zum Server zu übertragen und umgekehrt. Zum Beispiel kann der Client eine Funktion aufrufen, die auf dem Server ausgeführt wird, um Spielerdaten abzurufen.
+
+## Arten von Code
+
+Es gibt verschiedene Arten von Code, die du kennenlernen wirst, wenn du dich mit FiveM beschäftigst:
+
+### Lua Code
+
+Lua Code ist der Kern von FiveM. Hiermit programmierst du die meisten Funktionen für dein Spiel, und die Funktionen die daraufhin passieren,
+
+### FiveM Code
+
+FiveM bietet eine Vielzahl von Funktionen und Möglichkeiten, um dein Spiel zu gestalten. Die offizielle [FiveM-Natives-Seite](https://docs.fivem.net/natives/) enthält eine umfangreiche Dokumentation über alle verfügbaren Funktionen, die du in deinen Skripten verwenden kannst. Von Spielerinteraktionen bis hin zur Manipulation von Spielobjekten - hier findest du alles!
+
+### Framework Code
+
+Frameworks wie ESX oder QB bieten zusätzliche Funktionen und Werkzeuge, um deine FiveM-Erfahrung zu erweitern. Diese Frameworks stellen oft eine Menge vorgefertigter Funktionen zur Verfügung, die du in deinen Skripten nutzen kannst, um Zeit zu sparen und deine Entwicklungsprozesse zu optimieren.
+
+### SQL Code
+
+Wenn du mit einer Datenbank in FiveM arbeiten möchtest, wirst du auch mit SQL-Code in Berührung kommen. Dieser wird verwendet, um Datenbankabfragen zu erstellen und zu verwalten. SQL ist eine Abfragesprache, die es dir ermöglicht, Daten in einer relationalen Datenbank zu speichern, zu ändern und abzurufen.
+
+## Konzentration auf das Wesentliche
+
+Es ist wichtig, sich auf das zu konzentrieren, was einem am wichtigsten ist. Wähle eine Programmiersprache oder ein Framework, mit dem du dich am wohlsten fühlst, und vertiefe dich in dessen Funktionsweise. Finde Projekte, die dich interessieren, und arbeite daran, sie umzusetzen. Vergiss nicht, dass Motivation und Ausdauer der Schlüssel zum Erfolg sind!
+
+
+Das war eine Menge Information! Aber mach dir keine Sorgen, wenn du nicht alles auf einmal verstehst. Das Wichtigste ist, dass du neugierig bleibst und weiterlernst!
+
+Wenn du bereit bist, weiterzumachen, geht's hier zu [2-creating-your-first-script.mdx].
