@@ -21,6 +21,7 @@ function HomepageHeader() {
     <p><strong>Land:</strong> Deutschland</p>
     <p><strong>E-Mail:</strong> <a href="mailto:ludaro@gmail.com">ludaro@gmail.com</a></p>
 </div>
+</div>
 
         
     </header>
