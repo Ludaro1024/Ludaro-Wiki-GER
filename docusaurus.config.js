@@ -143,6 +143,10 @@ const config = {
             title: 'Wichtige Links:',
             items: [
               {
+                label: "Impressum",
+                href: "https://ludaro.de/impressum",
+              },
+              {
                 label: "Discord",
                 href: "https://discord.ludaro.de",
               },
@@ -162,7 +166,7 @@ const config = {
           width: 100,
           height: 100,
         },
-        copyright: `Copyright © ${new Date().getFullYear()} Ludaro, geschrieben mit vollem ❤️ für dich. mit Docusaurus`,
+        copyright: `Copyright © ${new Date().getFullYear()} Poruvan, geschrieben mit vollem ❤️ für dich. mit Docusaurus`,
       },
       prism: {
         additionalLanguages: ['powershell', 'lua', 'php', 'csharp', 'css', 'javascript', 'sql', 'json', 'git', 'diff'],
