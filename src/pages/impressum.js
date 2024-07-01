@@ -12,14 +12,16 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">Ludaro.de Impressum</h1>
-        Lukas Geissbauer
-        c/o RA Matutis
-        Berliner Straße 57
-        14467 Potsdam
-        Deutschland
-        E-Mail: ludaro@gmail.com
+      <div class="impressum">
+    <h1 class="hero__title">Ludaro.de Impressum</h1>
+    <p><strong>Inhaber:</strong> Lukas Geissbauer</p>
+    <p><strong>Kontaktadresse:</strong> c/o RA Matutis</p>
+    <p><strong>Straße:</strong> Berliner Straße 57</p>
+    <p><strong>PLZ, Stadt:</strong> 14467 Potsdam</p>
+    <p><strong>Land:</strong> Deutschland</p>
+    <p><strong>E-Mail:</strong> <a href="mailto:ludaro@gmail.com">ludaro@gmail.com</a></p>
 </div>
+
         
     </header>
   );
