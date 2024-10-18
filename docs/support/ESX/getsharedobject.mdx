@@ -18,17 +18,19 @@ Dieser Fehler tritt auf, da **Events** in FiveM als **unperformant** angesehen w
 
 ## In Skripten sieht das dann so aus:
 
-:::warning WICHTIG: Das gezeigte Event kann in verschiedenen Skripten unterschiedlich implementiert sein und von dem abweichen, was hier gezeigt wird. :::
+:::warning WICHTIG: 
+Das gezeigte Event kann in verschiedenen Skripten unterschiedlich implementiert sein und von dem abweichen, was hier gezeigt wird. 
+:::
 
 ### ltes Event:
 
-```
+```lua
 TriggerEvent("esx:getSharedObject", function(obj) ESX = obj end)
 ```
 
 ### Neuer Export:
 
-```
+```lua
 ESX = exports["es_extended"]:getSharedObject()
 ```
 
