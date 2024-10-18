@@ -19,7 +19,7 @@ function HomepageHeader() {
     <p><strong>Straße:</strong> Berliner Straße 57</p>
     <p><strong>PLZ, Stadt:</strong> 14467 Potsdam</p>
     <p><strong>Land:</strong> Deutschland</p>
-    <p><strong>E-Mail:</strong>ludaro@ludaro.dem</p>
+    <p><strong>E-Mail:</strong>ludaro@ludaro.de</p>
 </div>
 </div>
 
