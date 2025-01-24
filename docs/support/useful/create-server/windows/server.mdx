@@ -12,12 +12,12 @@ Bevor wir den FiveM-Server installieren, müssen wir sicherstellen, dass die Win
 
 ### Ports öffnen
 
-Du solltest die folgenden Ports für deinen FiveM-Server öffnen:
+{/* Du solltest die folgenden Ports für deinen FiveM-Server öffnen:
 
 - TCP-Port 40120 (eingehend und ausgehend)
 - UDP-Port 40120 (eingehend und ausgehend)
 - TCP-Port 30120 (eingehend und ausgehend)
-- UDP-Port 30120 (eingehend und ausgehend)
+- UDP-Port 30120 (eingehend und ausgehend) */}
 
 Öffne diese Ports in der Windows-Firewall, damit Spieler auf deinen Server zugreifen können.
 
@@ -25,7 +25,20 @@ Du solltest die folgenden Ports für deinen FiveM-Server öffnen:
 
 #### So öffnest du Ports in der Windows-Firewall:
 
-1. Gehe zu deinem Windows Server und öffne die "Windows Defender Firewall mit erweiterter Sicherheit".
+
+1. Öffne eine Powershell
+
+2. Kopier das in die Powershell und drück Enter
+
+```powershell
+netsh advfirewall firewall add rule name="FXServer-TCP" dir=in action=allow protocol=TCP localport=30120
+netsh advfirewall firewall add rule name="FXServer-UDP" dir=in action=allow protocol=UDP localport=30120
+netsh advfirewall firewall add rule name="txAdmin-TCP" dir=in action=allow protocol=TCP localport=40120
+```
+
+3. Die FiveM Ports sind jetzt geöffnet.
+
+{/* 1. Gehe zu deinem Windows Server und öffne die "Windows Defender Firewall mit erweiterter Sicherheit".
 
 2. Klicke auf "Eingehende Regeln" in der linken Seitenleiste.
 
@@ -39,7 +52,7 @@ Du solltest die folgenden Ports für deinen FiveM-Server öffnen:
 
 7. Gib einen Namen für die Regel ein (z. B. FiveM-Server-Port) und klicke auf "Fertig stellen".
 
-8. Wiederhole die Schritte 3 bis 7 für die anderen Ports (UDP-Port 40120, TCP-Port 30120, UDP-Port 30120).
+8. Wiederhole die Schritte 3 bis 7 für die anderen Ports (UDP-Port 40120, TCP-Port 30120, UDP-Port 30120). */}
 
 Jetzt sollten die Ports für deinen FiveM-Server geöffnet sein.
 
